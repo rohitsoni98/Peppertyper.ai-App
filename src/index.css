@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  width: 70%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.right {
+  width: 30%;
+  height: 100vh;
+  background: #fbf9f4;
+}
+
+.right h4 {
+  margin-top: 40%;
+}
+
+.right p {
+  padding: 0 8rem;
+  position: relative;
+  z-index: 5;
+}
+
+.right p::before{
+  content: "";
+  position: absolute;
+  top: -55px;
+  right: 120px;
+  opacity: .5;
+  background-color: #f8ede7;
+  width: 50%;
+  height: 20vh;
+  z-index: -5;
+  border-radius: 90rem 30rem 90rem 30rem;
+}
+
+.right p::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  background-color: #f8ede7;
+  opacity: .4;
+  width: 50%;
+  height: 20vh;
+  z-index: -1;
+  border-radius: 30rem 90rem 30rem 90rem;
+}
+
+.right button {
+  border-radius: 20px 8px 18px 20px !important;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.right button:hover {
+  transform: scale(1.03);
+}
+
+.right p span {
+  font-weight: bold;
+}
+
+.top_menu img {
+  width: 3%;
+}
+
+.top_menu h2 {
+  font-size: 22px;
+}
+
+.mid_menu {
+  width: 82%;
+  margin: 15% auto;
+}
+
+.mid_menu .para {
+  line-height: 4rem;
+}
+
+.btn_box {
+  margin: 20px 5px;
+}
+
+.btn_box button {
+  font-weight: bold;
+}
+
+.para_dark{
+  color: #9da6af;
+}
+
+.para_dark a {
+  font-weight: bold;
+  color: #9da6af;
+}
